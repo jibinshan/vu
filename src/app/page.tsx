@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Navbar from "@/components/Navbar";
 import Hero from "./(section)/Hero";
 import Welcome from "./(section)/Welcome";
@@ -8,6 +8,7 @@ import ConnectWithUs from "./(section)/ConnectWithUs";
 import Contact from "./(section)/Contact";
 import Latest from "./(section)/Latest";
 import Reserve from "./(section)/Reserve";
+import Calender from "./(section)/Calender";
 import Imagecontainer from "./(section)/Image";
 import Ambiance from "./(section)/Ambiance";
 import Tips from "./(section)/Tips";
@@ -53,13 +54,14 @@ export default function HomePage() {
         {/* <Map /> */}
         <ConnectWithUs />
         <Contact />
+        <Calender />
         <Footer />
       </div>
-      {isScrolled &&
-        <div className="fixed bottom-6 right-2 md:bottom-[54px] md:right-[48px] z-50 flex">
+      {isScrolled && (
+        <div className="fixed bottom-6 right-2 z-50 flex md:bottom-[54px] md:right-[48px]">
           <ViewMenu />
         </div>
-      }
-    </main >
+      )}
+    </main>
   );
 }
