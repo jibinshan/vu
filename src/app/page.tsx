@@ -1,5 +1,4 @@
 "use client";
-import Navbar from "@/components/Navbar";
 import Hero from "./(section)/Hero";
 import Welcome from "./(section)/Welcome";
 import Footer from "@/components/Footer";
@@ -17,6 +16,7 @@ import Menu from "./(section)/Menu";
 import Special from "./(section)/Special";
 import ViewMenu from "@/components/floating-buttons/ViewMenu";
 import { useState, useEffect } from "react";
+import Navbar from "@/components/Navbar";
 
 export default function HomePage() {
   const [isScrolled, setIsScrolled] = useState(false);
