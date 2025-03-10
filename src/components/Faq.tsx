@@ -21,7 +21,7 @@ const faqData = [
         question:
           "I can’t find the date or time I’m looking for, what do I do?",
         answer:
-          "If you cannot see availability during your chosen time or date, we are likely to be fully booked. Reservations for our sister restaurant, Ambassadors Clubhouse are now live. Located just a short walk away in Mayfair, Ambassadors Clubhouse celebrates food, drink and music from the region of Punjab.",
+          "If you cannot  see availability during your chosen time or date, we are likely to be fully booked. Reservations for our sister restaurant, Ambassadors Clubhouse are now live. Located just a short walk away in Mayfair, Ambassadors Clubhouse celebrates food, drink and music from the region of Punjab.",
       },
       {
         question: "Do you take walk-ins?",
